@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  render() {
+  render () {
     return <h1>hello</h1>;
   }
 }
 
-ReactDom.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
